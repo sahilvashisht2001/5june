@@ -1,13 +1,9 @@
-var a=6;
-function test(){
+function getfun(){
 
     var a=7;
-    function again(){
-        var a=8;
-        alert(a); //A
+    return function(b){
+        alert(a+b);
     }
-    again();
-    alert(a);//B
 }
-test();
-alert(a);//C
+var f=getfun();
+f(5);

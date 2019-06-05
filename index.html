@@ -19,5 +19,29 @@ function test(){
 test();
 alert(a);//C
 </script>
+<script>
+function getfun(){
+
+var a=7;
+return function(b){
+    alert(a+b);
+}
+}
+var f=getfun();
+f(5);
+</script>
+
+<script>
+function orange(blue){
+
+    if(blue>10){
+        var a=5;
+
+    }
+    else{a=100}
+    alert(a);
+}
+orange(3);
+</script>
 </body>
 </html>
