@@ -1,11 +1,4 @@
-//this is a comment
-<html>
-<head>
-
-</head>
-<body>
-    <script>
-    var a=6;
+var a=6;
 function test(){
 
     var a=7;
@@ -18,6 +11,3 @@ function test(){
 }
 test();
 alert(a);//C
-</script>
-</body>
-</html>
